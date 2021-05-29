@@ -10,7 +10,6 @@ namespace EonixConsole
 
         public tours ExecuterTour(int index)
         {
-            Console.WriteLine($"Le singe : {this.singe.name} exécute le tour : {this.singe.tours[index].name}");
             return this.singe.tours[index];
         }
             
