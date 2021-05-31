@@ -10,7 +10,9 @@ namespace ApiEonix.Models
     public class Users
     {
         public Guid Id { get; set; }
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string LastName { get; set; }
     }
 }
